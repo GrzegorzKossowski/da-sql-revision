@@ -68,4 +68,6 @@ Sources:
 - [CURRENT_TIMESTAMP]()
 - [YEAR]()
 - [MONTH]()
-- [DAY]()# da-sql-revision
+- [DAY]()
+
+
