@@ -1,5 +1,7 @@
 # SQL LIKE Operator
 
+[← README.md](../README.md)
+
 The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 
 There are two wildcards often used in conjunction with the LIKE operator:
@@ -80,3 +82,5 @@ The following SQL statement selects all patients with a first_name that does NOT
 SELECT * FROM patients
 WHERE first_name NOT LIKE 'a%';
 ```
+
+[← README.md](../README.md)

@@ -1,5 +1,7 @@
 # SQL CASE Statement
 
+[← README.md](../README.md)
+
 The `CASE` statement goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the `ELSE` clause.
 
 If there is no `ELSE` part and no conditions are true, it returns NULL.
@@ -40,3 +42,5 @@ SELECT patient_id, first_name, allergies
     ELSE allergies
   END);
 ```
+
+[← README.md](../README.md)

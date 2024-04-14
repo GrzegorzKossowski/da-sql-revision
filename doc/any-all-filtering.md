@@ -1,5 +1,7 @@
 # SQL ANY and ALL Operators
 
+[← README.md](../README.md)
+
 The ANY and ALL operators allow you to perform a comparison between a single column value and a range of other values.
 
 ## The SQL ANY Operator
@@ -53,3 +55,5 @@ WHERE column_name operator ALL
   FROM table_name
   WHERE condition);
 ```
+
+[← README.md](../README.md)

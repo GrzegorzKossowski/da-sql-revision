@@ -1,5 +1,7 @@
 # SQL Aliases
 
+[← README.md](../README.md)
+
 SQL aliases are used to give a table, or a column in a table, a temporary name.
 
 Aliases are often used to make column names more readable.
@@ -43,3 +45,5 @@ SELECT *
 FROM patients AS p
 JOIN admissions AS a ON a.patient_id = p.patient_id;
 ```
+
+[← README.md](../README.md)

@@ -1,5 +1,7 @@
 # SQL EXISTS Operator
 
+[← README.md](../README.md)
+
 The EXISTS operator is used to test for the existence of any record in a subquery.
 
 The EXISTS operator returns TRUE if the subquery returns one or more records.
@@ -33,3 +35,5 @@ SELECT * FROM patients
   JOIN admissions ON patients.patient_id = admissions.patient_id
   WHERE diagnosis = 'Pregnancy'
 ```
+
+[← README.md](../README.md)

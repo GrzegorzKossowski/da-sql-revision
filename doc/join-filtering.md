@@ -1,5 +1,7 @@
 # SQL JOIN
 
+[← README.md](../README.md)
+
 A JOIN clause is used to combine rows from two or more tables, based on a related column (primary, foreign key) between them.
 
 ## INNER JOIN Syntax
@@ -60,3 +62,5 @@ FROM patients p
 JOIN admissions a ON a.patient_id = p.patient_id
 JOIN doctors ph ON ph.doctor_id = a.attending_doctor_id
 ```
+
+[← README.md](../README.md)

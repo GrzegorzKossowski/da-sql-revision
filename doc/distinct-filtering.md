@@ -1,5 +1,7 @@
 # SQL SELECT DISTINCT Statement
 
+[← README.md](../README.md)
+
 The SELECT DISTINCT statement is used to return only distinct (different) values.
 
 Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
@@ -34,3 +36,5 @@ The following SQL statement lists the number of different (distinct) first_name:
 ```sql
 SELECT COUNT(DISTINCT first_name) FROM patients;
 ```
+
+[← README.md](../README.md)

@@ -1,5 +1,7 @@
 # SQL AND, OR and NOT Operators
 
+[← README.md](../README.md)
+
 The WHERE clause can be combined with AND, OR, and NOT operators.
 
 The AND and OR operators are used to filter records based on more than one condition:
@@ -60,3 +62,5 @@ The following SQL statement selects all fields from "patients" where province_id
 SELECT * FROM patients
 WHERE NOT province_id = 'ON';
 ```
+
+[← README.md](../README.md)

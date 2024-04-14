@@ -1,5 +1,7 @@
 # SQL HAVING Clause
 
+[← README.md](../README.md)
+
 The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
 
 ## HAVING Syntax
@@ -33,3 +35,5 @@ GROUP BY first_name
 HAVING COUNT(*) > 30
 ORDER BY COUNT(*) DESC;
 ```
+
+[← README.md](../README.md)
